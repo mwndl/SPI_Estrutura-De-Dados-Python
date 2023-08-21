@@ -1,0 +1,10 @@
+# Lista 1 - Exercício 9
+# Escreva um programa que leia uma lista de nomes e retorne uma nova lista com apenas os nomes que começam com a letra 'A'.
+
+# Resolução:
+
+nomes = input("Digite uma lista de nomes separados por espaço: ").split()
+
+nomes_com_A = [nome for nome in nomes if nome.startswith('A')]
+
+print("Nomes que começam com 'A':", nomes_com_A)

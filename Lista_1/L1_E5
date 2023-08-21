@@ -1,0 +1,20 @@
+# Lista 1 - Exercício 5
+# Faça um programa que leia uma lista de números e retorne a média dos números pares.
+
+# Resolução:
+
+numeros = [int(x) for x in input("Digite uma lista de números inteiros separados por espaço: ").split()]
+
+soma = 0
+count = 0
+
+for num in numeros:
+    if num % 2 == 0:
+        soma += num
+        count += 1
+
+if count == 0:
+    print("Desculpe, mas parece que não há números pares na lista.")
+else:
+    media = soma / count
+    print("A média dos números pares é:", media)

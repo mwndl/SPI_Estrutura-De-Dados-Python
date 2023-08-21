@@ -1,0 +1,12 @@
+# Lista 1 - Exercício 4
+# Crie um programa que leia uma lista de números e exiba o maior e o menor valor da lista.
+
+# Resolução:
+
+numeros = [int(x) for x in input("Digite uma lista de números inteiros separados por espaço: ").split()]
+
+maior = max(numeros)
+menor = min(numeros)
+
+print("O maior valor é:", maior)
+print("O menor valor é:", menor)

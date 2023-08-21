@@ -1,0 +1,11 @@
+# Lista 1 - Exercício 2
+# Crie um programa que determine se um número inserido pelo usuário é par ou ímpar.
+
+# Resolução:
+
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0:
+    print("O número é par.")
+else:
+    print("O número é ímpar.")
